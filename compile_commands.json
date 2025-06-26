@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/mag1cian/sharingan",
+  "arguments": ["/usr/sbin/clang", "-c", "-Qunused-arguments", "-fvisibility=hidden", "-O3", "-Ichcore/kernel/include", "-Ibuild/.gens/chcore/linux/arm64/release/platform/windows/idl", "-DNDEBUG", "-o", "build/.objs/chcore/linux/arm64/release/chcore/kernel/src/main.c.o", "chcore/kernel/src/main.c"],
+  "file": "chcore/kernel/src/main.c"
+}]
