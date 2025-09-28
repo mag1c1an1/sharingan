@@ -18,4 +18,21 @@ struct object {
   u64 opaque[];
 };
 
+enum object_type {
+  TYPE_NO_TYPE = 0,
+  TYPE_CAP_GROUP,
+  TYPE_THREAD,
+  TYPE_CONNECTION,
+  TYPE_NOTIFICATION,
+  TYPE_IRQ,
+  TYPE_PMO,
+  TYPE_VMSPACE,
+#ifdef CHCORE_OPENTRUSTEE
+  TYPE_CHANNEL,
+  TYPE_MSG_HDL,
+#endif /* CHCORE_OPENTRUSTEE */
+  TYPE_PTRACE,
+  TYPE_NR,
+};
+
 #endif
